@@ -1,0 +1,230 @@
+*{
+    margin: auto;
+}
+body{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+#container{
+    height: 1300px;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(132, 0, 0), white, rgb(132, 0, 0));
+}
+
+#divClinica{
+    border-color: rgb(255, 255, 255);
+    background-color:  rgb(170, 0, 0);
+    margin: auto;
+    height: 200px;
+}
+
+#primeiroNome{
+    color: rgb(187, 0, 0);
+}
+
+#divBotoes{
+    border: solid 4px;
+    border-color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: white;
+    border-left: solid 700px;
+    border-right: solid 700px;
+    border-left-color: rgb(170, 0, 0);
+    border-right-color: rgb(170, 0, 0);
+}
+
+#botaoInicio:hover{
+    cursor: pointer;
+    border-radius: 1px;
+    border: none;
+    background-color: rgb(255, 125, 125);
+}
+
+#botaoInicio{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: white;
+    border: solid 2px;
+    font-size: 20px;
+    
+}
+
+#botaoProfissionais:hover{
+    cursor: pointer;
+    border-radius: 1px;
+    border: none;
+    background-color: rgb(255, 125, 125);
+}
+
+#botaoProfissionais{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1px;
+    border: solid 2px;
+    background-color: white;
+    font-size: 20px;
+}
+
+#botaoSobre:hover{
+    cursor: pointer;
+    border-radius: 1px;
+    border: none;
+    background-color: rgb(255, 125, 125);
+}
+
+#botaoSobre{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: white;
+    border: solid 2px;
+    font-size: 20px;
+}
+
+#botaoContato:hover{
+    cursor: pointer;
+    border-radius: 1px;
+    border: none;
+    background-color: rgb(255, 125, 125);
+}
+
+#botaoContato{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1px;
+    border: solid 2px;
+    background-color: white;
+    font-size: 20px;
+}
+
+#botaoAgendamento:hover{
+    cursor: pointer;
+    border-radius: 1px;
+    border: none;
+    background-color: rgb(255, 125, 125);
+}
+
+#botaoAgendamento{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1px;
+    background-color: white;
+    border: solid 2px;
+    font-size: 20px;
+}
+
+#divVideo{
+    margin-left: 40px;
+    margin-top: 100px;
+    width: 1900px;
+    height: 500px;
+}
+
+#imagemClinica{
+    position: relative;
+    top: -100px;
+    height: 260px;
+    width: 300px;
+}
+
+#video{
+    height: 450px;
+    width: 800px;
+    border: solid 7px;
+    border-color: red;
+    border-radius: 20px;
+}
+
+#sobreEmpresa{
+    height: 0px;
+    width: 800px;
+    margin-top: 150px;
+    background-color: rgb(170, 0, 0);
+    
+}
+
+#nomeDesenvolvedor{
+    margin-left: 100px;
+    margin-top: 80px;
+}
+
+#imagemEmbaixo{
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: -800px;
+    top: -50px;
+}
+
+#links{
+    text-align: end;
+    position: relative;
+    font-size: 20px;
+    top: -50px;
+    left: -20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+#tudoEmbaixo{
+    background-color: rgb(170, 0, 0);
+    height: 350px;
+    position: relative;
+    top: -400px;
+}
+
+a{
+    color: white;
+}
+
+#desenvolvedor{
+    color: white;
+}
+
+#divRelogio{
+    position: relative;
+    width: 100px;   
+    height: 50px;
+    font-size: 20px;
+    margin-left: 1800px;
+    color: white ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#divMusica{
+    display: none;
+}
+
+#desenvolvedor{
+    cursor: pointer;
+}
+
+iframe{
+    height: 1000px;
+    width: 1800px;
+    margin-left: 10px;
+    margin-top: 100px;
+    position: relative;
+    left: -80px;
+    overflow: hidden;
+}
+
+h4{
+    background-color: gray;
+}
+#contatos{
+    width: 20px;
+}
+
+#mapa{
+    height: 300px;
+    width: 300px;
+    margin-left: 350px;
+}

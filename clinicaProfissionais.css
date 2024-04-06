@@ -1,0 +1,26 @@
+#divContainer{
+    margin-left: 200px;
+}
+
+th{
+    border: solid;
+    border-color: red;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+
+td{
+    border: solid;
+    border-color: red;
+    font-size: 30px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
+}
+table{
+    background-color: white;
+    border: solid;
+    border-color: red;
+    border-radius: 5px;
+}

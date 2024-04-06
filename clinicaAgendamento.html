@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="clinicaAgendamento.css">
+    <script src="clinicaAgendamento.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+    <div id="dadosPessoais">
+        <h2>DADOS PESSOAIS:</h2>
+        <div action="" id="formulario">
+            <label for="">Nome Completo:</label>
+            <input type="text" name="" id="input1" class="agendamento" required>
+            <label for="">Email para contato:</label>
+            <input type="text" name="" id="input2" class="agendamento" required>
+            <label for="">Telefone para contato:</label>
+            <input type="number" name="" id="input3" class="agendamento" required>
+        </div>
+    </div>
+    <div id="divEndereco">
+        <h2>ENDEREÇO:</h2>
+        <div action="" id="formulario2">
+            <label for="">CEP:</label>
+            <input type="number" name="" id="cepEndereco" class="endereco" required>
+            <label for="">Cidade:</label>
+            <input type="text" name="" id="cidadeEndereco" class="endereco" required>
+            <label for="">Bairro:</label>
+            <input type="text" name="" id="bairroEndereco" class="endereco" required>
+            <label for="">Complemento:</label>
+            <input type="text" name="" id="complementoEndereco" class="endereco" required>
+        </div>
+    </div>
+    <div id="divCalendario">
+        <h2>AGENDAMENTO:</h2>
+        <div action="" id="formulario3">
+            <label for="">Data da consulta:</label>
+            <input type="datetime-local" id="input4" class="calendario">
+            <label for="">Mensagem:</label>
+            <textarea name="" id="textarea1" cols="30" rows="10" placeholder="Mensagem" class="calendario" required></textarea>
+            <button type="submit" id="botaoDados">Enviar</button>
+        </div>
+    </div>
+    </div>
+</body>
+</html>

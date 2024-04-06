@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <link rel="stylesheet" href="clinica.css">
+    <script src="clinica.js" defer></script>
+    <title>Cardio Health</title>
+</head>
+<body>
+    <div id="container">
+        
+        <div id="divMusica">
+            <embed src="audio.mp3" type="audio/mp3" autoplay>
+        </div>
+        <div id="divClinica">
+            <div id="divRelogio">
+                <span id="horarioAtual"></span>
+                <span id="horario"></span>
+                <span id="dataSpanLabel"></span>
+                <span id="dataSpan"></span>
+            </div>
+            <img id="imagemClinica" src="logo.jpg.png">
+        </div>
+        <div id="divBotoes">
+            <tr>    
+                <button id="botaoInicio" onclick="abrirInicio()">Início</button>
+                <button id="botaoContato" onclick="abrirContato()">Contato</button>
+                <button id="botaoAgendamento" onclick="abrirAgendamento()">Agendamento</button>
+                <button id="botaoProfissionais" onclick="abrirProfissionais()">Profissionais</button>
+                <button id="botaoSobre" onclick="abrirSobre()">Sobre</button>
+            </tr>
+        </div>
+                <iframe id="iframeClinica" src="clinicaVideo.html" frameborder="0"></iframe>  
+        <div id="tudoEmbaixo">
+            <div id="sobreEmpresa">
+                <img id="imagemEmbaixo" src="logo.jpg.png">
+            </div>
+            <div id="nomeDesenvolvedor">
+                <h1 id="desenvolvedor">Desenvolvido por: <a href="https://www.instagram.com/pedrosantosw_/">@pedrosantosw_</a></h1>
+            </div>
+            <div id="links">
+                <ul>
+                <li><a href="https://www.instagram.com/pedrosantosw_/" id="instragram">Instagram</a></li>
+                <li><a href="https://www.youtube.com/channel/UC3f4sTKrBAvRuj9tUrCagag" id="youtube">You Tube</a></li>
+                <li><a href="https://twitter.com/cardiohealth_al" id="twitter">Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

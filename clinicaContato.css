@@ -1,0 +1,102 @@
+#container{
+    height: 100px;
+    margin-left: 500px;
+    
+}
+#contato{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    width: 200px;
+}
+
+#enviarDados{
+    position: relative;
+    top: 15px;
+    cursor: pointer;
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    margin-left: 175px;
+    background-color: white;   
+    font-size: 20px;
+}
+#enviarDados:hover{
+    color: red;
+    transform: scale(1.1);
+    transition: all(0.1);
+}
+
+#nomeContato{
+    background-color: white;
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+    box-shadow: 100px;
+}
+#nomeContato:hover{
+    border-color: red;
+    border-radius: 0px;
+}
+
+#emailContato{
+    background-color: white;
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 5px;
+    height: 20px;
+    width: 250px;
+}
+#emailContato:hover{
+    border-color: red;
+    border-radius: 0px;
+}
+
+#contatoContato{
+   background-color: white;
+   border: solid 1px;
+   border-color: gray;
+   border-radius: 5px;
+   height: 20px;
+   width: 250px;
+
+}
+#contatoContato:hover{
+    border-color: red;
+    border-radius: 0px;
+}
+
+#mensagemContato{
+    font-size: 15;
+    border: solid 1px;
+    border-color: gray;
+    border-radius: 5px;
+    height: 110px;
+    width: 250px;
+}
+#mensagemContato:hover{
+    border-color: red;
+    border-radius: 0px;
+}
+
+
+::placeholder{
+    color: rgb(255, 157, 157);
+}
+
+h3{
+    font-weight: 500;
+}
+#mapa{
+    border: solid 3px;
+    width: 600px;
+    height: 400px;
+    border-radius: 10px;
+    margin-left: 500px;
+    position: relative;
+    top: -299px;
+}
